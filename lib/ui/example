@@ -1,0 +1,67 @@
+  // final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+
+
+  // Widget _mobileView(BuildContext context) {
+  //   return Scaffold(
+  //     key: scaffoldKey,
+  //     endDrawer: _sideDrawer(context),
+  //     appBar: AppBar(
+  //       backgroundColor: kcPrimaryColor,
+  //       elevation: 0.0,
+  //       title: const Text(
+  //         'Mumbai Stock Solution Tips',
+  //         style: TextStyle(
+  //           color: kcWhiteColor1,
+  //           fontSize: 20.0,
+  //           fontWeight: FontWeight.bold,
+  //         ),
+  //       ),
+  //       actions: [
+  //         Builder(
+  //           builder: (BuildContext context) {
+  //             return IconButton(
+  //               icon: const Icon(
+  //                 Icons.menu,
+  //                 color: kcWhiteColor1,
+  //               ),
+  //               onPressed: () {
+  //                 scaffoldKey.currentState?.openEndDrawer();
+  //               },
+  //             );
+  //           },
+  //         ),
+  //       ],
+  //     ),
+  //     body: const SingleChildScrollView(
+  //       child: SafeArea(
+  //         child: Column(
+  //           children: [],
+  //         ),
+  //       ),
+  //     ),
+  //   );
+  // }
+
+
+
+
+  //Desk
+
+  // Widget _desktopView(BuildContext context) {
+  //   return Scaffold(
+  //     appBar: _appBar(context),
+  //     body: SingleChildScrollView(
+  //       child: Padding(
+  //         padding: const EdgeInsets.symmetric(horizontal: 16),
+  //         child: Center(
+  //           child: ConstrainedBox(
+  //             constraints: const BoxConstraints(maxWidth: 1000),
+  //             child: const Column(
+  //               children: [],
+  //             ),
+  //           ),
+  //         ),
+  //       ),
+  //     ),
+  //   );
+  // }
